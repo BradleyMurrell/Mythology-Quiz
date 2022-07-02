@@ -86,3 +86,9 @@ input::placeholder {
     text-align: center;
     color: #2E4159;
 }
+
+ul {
+    list-style: none;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
