@@ -63,3 +63,25 @@ h2 {
     transition: transform 150ms;
     transform: scale(1.03);
 }
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 2rem;
+    width: 30rem;
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 #8F8EBF;
+}
+
+input::placeholder {
+    text-align: center;
+    color: #2E4159;
+}
