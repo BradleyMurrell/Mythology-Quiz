@@ -28,3 +28,23 @@
     text-align: center;
     width: 60rem;
 }
+
+@media only screen and (max-width: 1020px) {
+    #question {
+        width: 100%;
+    }
+    
+    #information {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #question {
+        width: 100%;
+    }
+    
+    #information {
+        width: 80%;
+    }
+}
