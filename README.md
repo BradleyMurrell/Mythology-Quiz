@@ -11,12 +11,44 @@ The user can create a username and save their score at the end of the quiz. The 
 <img src="assets/images/wireframe.png">
 
 ## Features
+* Mythology Quiz heading
+  * Located at the top of the quiz
+
+* Question
+  * Questions will be shown in a random order
+
+* Answer
+  * Four multiple choice answers to choose from.
+  * After selecting an answer, a new question will appear.
+
+* Question and score tally
+  * Keeps track of what question the user is on and number of correct answers.
+
+* Final score
+  * When the quiz is finished, the final score is displayed.
+
+* Username
+  * User can enter their username.
+
+* Save and Play again
+  * Player can save their score and play the quiz again.
+
+* High Scores
+  * Top 5 highscores will be displayed along side the username.
 
 ## Colors Used
+<img src="assets/images/colorchart.jpeg">
 
 ## Testing
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
 ## Validator Testing
+* HTML
+  * No errors were returned when passing through the official W3C validator
+* CSS
+  * No errors were found when passing through the official (Jigsaw) validator
+* JavaScript
+  * No errors were found when passing through the official Jshint validator
 
 ## Bugs
 * Fixed
