@@ -20,6 +20,7 @@ The user can create a username and save their score at the end of the quiz. The 
 
 ## Bugs
 * Fixed
+  * Could not display final score on the end page. Removed # on line 4 in end.js `('#mostRecentScore')`. Score now displays.
 
 * Unfixed
 
