@@ -150,3 +150,4 @@ The user can create a username and save their score at the end of the quiz. The 
 * Wireframe created on https://whimsical.com/
 * Color pallette created on https://color.adobe.com/
 * Favicon created on https://favicon.io/
+* Fonts sourced from https://fonts.google.com/
