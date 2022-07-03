@@ -49,6 +49,21 @@ The user can create a username and save their score at the end of the quiz. The 
   * No errors were found when passing through the official (Jigsaw) validator
 * JavaScript
   * No errors were found when passing through the official Jshint validator
+    * The following metrics were returned:
+    ### game.js
+    * There are 11 functions in this file.
+    * Function with the largest signature take 2 arguments, while the median is 1.
+    * Largest function has 12 statements in it, while the median is 3.
+    * The most complex function has a cyclomatic complexity value of 5 while the median is 1.
+
+    ### end.js
+    * There are 3 functions in this file.
+    * Function with the largest signature take 2 arguments, while the median is 1.
+    * Largest function has 7 statements in it, while the median is 1.
+    * The most complex function has a cyclomatic complexity value of 1 while the median is 1.
+
+    ### highscores.js
+
 
 ## Bugs
 * Fixed
