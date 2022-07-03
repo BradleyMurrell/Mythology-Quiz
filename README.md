@@ -1,19 +1,37 @@
 # Mythology Quiz
 
+## Table of Contents
+
+* [Description](#description)
+* [Wireframe](#wireframe)
+* [Am I Responsive](#am-i-responsive)
+* [Features](#features)
+* [Colors Used](#colors-used)
+* [Testing](#testing)
+* [Validator Testing](#validator-testing)
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Content](#content)
+
+<a name="description"></a>
 ## Description
 
 The Mythology Quiz tests the user on their knowledge of mythology from different cultures.
 The user is given ten multiple choice questions with the option to choose from one of four answers. The results are tallied and shows the user how many questions they have answered correctly which is displayed under the questions and a final score when the quiz is completed.
 The user can create a username and save their score at the end of the quiz. The score is saved locally. The quiz can be replayed again as many times as they like. The questions are displayed in random order so that each time the quiz is taken, the questions are not in the same order as the last.
 
+<a name="wireframe"></a>
 ## Wireframe
 
 <img src="assets/images/README/wireframe.png">
 
+<a name="am-i-responsive"></a>
 ## Am I Responsive
 
 <img src="assets/images/README/AmIResponsive.png">
 
+<a name="features"></a>
 ## Features
 * Mythology Quiz heading
   * Located at the top of the quiz
@@ -54,14 +72,17 @@ The user can create a username and save their score at the end of the quiz. The 
 
 <img src="assets/images/README/highscores.png">
 
+<a name="colors-used"></a>
 ## Colors Used
 <img src="assets/images/README/colorchart.jpeg">
 
+<a name="testing"></a>
 ## Testing
 * I confirm that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
 <img src="assets/images/README/test.png">
 
+<a name="validator-testing"></a>
 ## Validator Testing
 * HTML
   * No errors were returned when passing through the official W3C validator
@@ -88,7 +109,7 @@ The user can create a username and save their score at the end of the quiz. The 
     * This function contains only one statement.
     * Cyclomatic complexity number for this function is 1.
 
-
+<a name="bugs"></a>
 ## Bugs
 * Fixed
   * Could not display final score on the end page. Removed `#` on line 4 in end.js `('#mostRecentScore')`. Score now displays.
@@ -97,6 +118,7 @@ The user can create a username and save their score at the end of the quiz. The 
 * Unfixed
   * No unfixed bugs
 
+<a name="deployment"></a>
 ## Deployment
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
   * In the GitHub repository, navigate to the `Settings` tab
@@ -106,12 +128,14 @@ The user can create a username and save their score at the end of the quiz. The 
 
 ### The live link can be found here - https://bradleymurrell.github.io/Mythology-Quiz/
 
+<a name="credits"></a>
 ## Credits
 * Simen Daehlin (Mentor)
   * Simen helped me implement the code in `game.js line 16 - line 46` so that the multiple choice questions from opentdb can be fetched. 
 
 * Instructions on how to save and the display of highscores was taken from https://www.youtube.com/watch?v=f4fB9Xg2JEY
 
+<a name="content"></a>
 ## Content
 * Multiple choice questions sourced from https://opentdb.com/
 * Wireframe created on https://whimsical.com/
