@@ -3,6 +3,7 @@
 ## Table of Contents
 
 * [Description](#description)
+* [User Stories](#user-stories)
 * [Wireframe](#wireframe)
 * [Am I Responsive](#am-i-responsive)
 * [Features](#features)
@@ -20,6 +21,14 @@
 The Mythology Quiz tests the user on their knowledge of mythology from different cultures.
 The user is given ten multiple choice questions with the option to choose from one of four answers. The results are tallied and shows the user how many questions they have answered correctly which is displayed under the questions and a final score when the quiz is completed.
 The user can create a username and save their score at the end of the quiz. The score is saved locally. The quiz can be replayed again as many times as they like. The questions are displayed in random order so that each time the quiz is taken, the questions are not in the same order as the last.
+
+<a name="user-stories"></a>
+## User Stories
+
+* As a user, I would like to see a homepage, to see the description of the quiz
+* As a user, I would like to answer a series multiple choice questions on mythology, so that I can test my knowledge
+* As a user, I would like to save my score when I have finished the quiz, so that I can compare it with other scores
+* As a user, I would like to view a high scores page, so that I can see if my score makes it to the top five
 
 <a name="wireframe"></a>
 ## Wireframe
